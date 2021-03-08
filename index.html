@@ -26,6 +26,7 @@
       <p>
         <br>
         学習中言語：Ruby,Rails,Vue.js<br>
+        (様々な言語に挑戦したいので言語は問いません)
         <!-- 希望勤務地：沖縄 <br> -->
         <!-- 希望年収：260万円/年 以上 -->
       </p>
@@ -446,14 +447,13 @@
 
     <section class="text-center padding_top" id="section3">
       <div class="front_text">Ruby on Rails JavaScript<h2 class="back_text">Ruby on Rails</h2></div>
-      <h3 class="content_title">ルーレットアプリ</h3>
+      <h3 class="content_title">スリムアップ</h3>
       <div class="container">
 
         <div class="left_space">
-          <p><video autoplay muted playsinline controls src="image/ruletto.mov" class="capture_video"></video>
-          </p>
+          <iframe width="400" height="300" src="https://www.youtube.com/embed/7ZywePNwZec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </p>
 
-          <a href="https://github.com/kobashigawa-hiroya/Rails_original.git" target="_blank"><img src="image/お掃除-1.gif" alt="この本をぜひとも紹介したいオススメの一冊"></a>
+          <a href="https://original-weight-management.herokuapp.com/" target="_blank"><img src="image/体重管理.gif" alt="この本をぜひとも紹介したいオススメの一冊"></a>
         </div>
 
         <div class="right_space">
@@ -462,21 +462,22 @@
               <i class="fas fa-chalkboard"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">アプリの概要</h4>
+              <h4 class="top_info">作成した経緯</h4>
               <ul>
-                <li>・お掃除当番（係）を決める</li>
-                <li>・お掃除当番だけではなく、項目＆名前の部分を変更出来汎用できるようにした</li>
-                <li>・地味な係決めもルーレットで楽しく</li>
+                <li>・プログラミングの勉強を始めてから、去年より3kg以上増…体重が増加し始めたので、健康管理兼自己管理を行う為、作成。</li>
+                <li></li>
+                <li></li>
               </ul>
             </div>
           </section>
+
           <section class="flex">
             <div class="icon">
               <i class="fas fa-code"></i>
             </div>
             <div class="info">
               <h4 class="top_info">ソースコード</h4>
-              <a href="https://github.com/kobashigawa-hiroya/Rails_original.git" class="github blue-link" target="_blank">GitHub(ルーレット)</a>
+              <a href="https://github.com/kobashigawa-hiroya/weight_app" class="github blue-link" target="_blank">GitHub(スリムアップ)</a>
             </div>
           </section>
           <section class="flex">
@@ -486,11 +487,14 @@
             <div class="info">
               <h4 class="top_info">こだわりポイント</h4>
               <ul>
-                <li>・初めてRailsでCRUD処理を実装して制作したアプリ</li>
-                <li>・Chart.jsの円グラフを使い、ルーレットの基盤を再現</li>
-                <li>・今回はBootstrapではなく、学習も兼ねてBulma（CSSフレームワーク）を使用</li>
-                <li>・よりゲーム感覚的を味わえるようローディング画面を実装した</li>
-                <li>・フロント部分の学習も兼ねてVue.jsを現在取り入れ実装中（現在製作中）</li>
+                <li>・体重と運動距離を入力し、グラフにまとめてくれるアプリ
+                  
+                  
+                  </li>
+                <li>・折れ線グラフは記録した体重になっている</li>
+                <li>・表示したい範囲を指定して、見られる</li>
+                <li>・・間違えた場合は編集ボタンから編集可能</li>
+                <li>・RSpecを使用してテストコードの実装予定</li>
               </ul>
             </div>
           </section>
@@ -501,16 +505,85 @@
             <div class="info">
               <h4 class="top_info">使用したGem</h4>
               <ul>
-                <li>・ "bulma-rails"</li>
-                <li>・ "Activeadmin"</li>
-                <li>・ "jquery-rails"</li>
+                <li>・Chart.js：グラフ描写</li>
+                <li>・gon：データ受け渡し"</li>
+                <li>Devise：ログイン機能</li>
+                <li>・pry-byebug：デバッガーツール</li>
+                <li>・flatpickr：カレンダー機能</li>
                   </li>
               </ul>
             </div>
           </section>
         </div>
       </div>
-      
+   
+      <section class="text-center padding_top" id="section3">
+        <div class="front_text">Ruby on Rails JavaScript<h2 class="back_text">Ruby on Rails</h2></div>
+        <h3 class="content_title">係り決め（ルーレット）</h3>
+        <div class="container">
+  
+          <div class="left_space">
+            <p><video autoplay muted playsinline controls src="image/ruletto.mov" class="capture_video"></video>
+            </p>
+  
+            <a href="https://github.com/kobashigawa-hiroya/Rails_original.git" target="_blank"><img src="image/お掃除-1.gif" alt="この本をぜひとも紹介したいオススメの一冊"></a>
+          </div>
+  
+          <div class="right_space">
+            <section class="flex">
+              <div class="icon">
+                <i class="fas fa-chalkboard"></i>
+              </div>
+              <div class="info">
+                <h4 class="top_info">アプリの概要</h4>
+                <ul>
+                  <li>・お掃除当番（係）を決める</li>
+                  <li>・お掃除当番だけではなく、項目＆名前の部分を変更出来汎用できるようにした</li>
+                  <li>・地味な係決めもルーレットで楽しく</li>
+                </ul>
+              </div>
+            </section>
+            <section class="flex">
+              <div class="icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="info">
+                <h4 class="top_info">ソースコード</h4>
+                <a href="https://github.com/kobashigawa-hiroya/weight_app" class="github blue-link" target="_blank">GitHub(ルーレット)</a>
+              </div>
+            </section>
+            <section class="flex">
+              <div class="icon">
+                <i class="far fa-lightbulb"></i>
+              </div>
+              <div class="info">
+                <h4 class="top_info">こだわりポイント</h4>
+                <ul>
+                  <li>・初めてRailsでCRUD処理を実装して制作したアプリ</li>
+                  <li>・Chart.jsの円グラフを使い、ルーレットの基盤を再現</li>
+                  <li>・今回はBootstrapではなく、学習も兼ねてBulma（CSSフレームワーク）を使用</li>
+                  <li>・よりゲーム感覚的を味わえるようローディング画面を実装した</li>
+                  <li>・フロント部分の学習も兼ねてVue.jsを現在取り入れ実装中（現在製作中）</li>
+                </ul>
+              </div>
+            </section>
+            <section class="flex">
+              <div class="icon">
+                <i class="far fa-gem"></i>
+              </div>
+              <div class="info">
+                <h4 class="top_info">使用したGem</h4>
+                <ul>
+                  <li>・ "bulma-rails"</li>
+                  <li>・ "Activeadmin"</li>
+                  <li>・ "jquery-rails"</li>
+                    </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+  
 
       <h3 class="content_title">HOTELアプリ<br>（共同開発）作成中</h3>
       <div class="container">
